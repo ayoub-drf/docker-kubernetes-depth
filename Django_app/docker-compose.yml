@@ -2,7 +2,7 @@ version: '3'
 services:
   db:
     image: mysql
-    container_name: project_name_mariadb
+    container_name: my_sql_container
     restart: always
     volumes:
       - data:/var/lib/mysql
